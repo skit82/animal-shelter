@@ -1,0 +1,20 @@
+.main-menu {
+  width: 470px;
+  margin: 0px;
+  padding: 0px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    list-style: none;
+  }
+
+  &__link {
+    line-height: $font-size--h1 + 14;
+    color: #cdcdcd;
+  }
+}
