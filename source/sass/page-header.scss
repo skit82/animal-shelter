@@ -6,6 +6,7 @@
   &--big {
     width: 1920px;
     height: 925px;
+    margin-bottom: 90px;
     background-image: url("../img/bg-header.jpg");
     background-repeat: no-repeat;
   }
@@ -66,6 +67,10 @@
     line-height: $font-size--h6 + 40;
     letter-spacing: 0.06em;
     color: #000000;
+    font-weight: 400;
+    padding-left: 44px;
+    padding-right: 43px;
     background-color: $color-sand;
+    border-radius: 100px;
   }
 }
