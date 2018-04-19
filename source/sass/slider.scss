@@ -1,0 +1,76 @@
+.slider {
+  position: relative;
+  width: 970px;
+  margin: 0 auto;
+  margin-bottom: 65px;
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  &__item {
+    width: 270px;
+    height: 424px;
+    background-color: #fafafa;
+    border-radius: 5px;
+  }
+
+  &__image {
+    border-radius: 10px;
+  }
+
+  &__name {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 13px;
+    font-size: $font-size--h7;
+    line-height: $font-size--h7 + 25;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__link {
+    display: block;
+    width: 188px;
+    margin: 0 auto;
+    font-size: $font-size--h6;
+    line-height: $font-size--h6 + 35;
+    letter-spacing: 0.06em;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 41px;
+    padding-right: 41px;
+    border-radius: 100px;
+    border: 2px solid $color-sand;
+  }
+
+  &__arrow-left {
+    position: absolute;
+    top: 183px;
+    left: -100px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid $color-sand;
+    border-radius: 50%;
+  }
+
+  &__picture {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+
+  &__arrow-right {
+    position: absolute;
+    top: 183px;
+    right: -100px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid $color-sand;
+    border-radius: 50%;
+  }
+}

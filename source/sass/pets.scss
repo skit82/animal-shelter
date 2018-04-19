@@ -1,0 +1,34 @@
+.pets {
+  display: flex;
+  flex-direction: column;
+  padding: 0 375px;
+  background-color: $сolor-smoky;
+
+  &__title {
+    width: 430px;
+    margin: 0px auto;
+    margin-top: 73px;
+    margin-bottom: 60px;
+    font-size: $font-size--h2;
+    line-height: $font-size--h2 + 10;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__link {
+    display: block;
+    width: 269px;
+    margin: 0 auto;
+    margin-bottom: 68px;
+    font-size: $font-size--h6;
+    line-height: $font-size--h6 + 35;
+    letter-spacing: 0.06em;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 41px;
+    padding-right: 41px;
+    background-color: $color-sand;
+    border-radius: 100px;
+  }
+}
